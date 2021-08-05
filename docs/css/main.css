@@ -110,3 +110,13 @@ body {
     align-items: center;
     padding: 50px;
 }
+
+.results__acsiaMonthlyPay {
+    background-color: #fff;
+    color: #14bf7b;
+}
+
+.results__acsiaResult {
+    background-color: #fff;
+    color: #14bf7b;
+}
