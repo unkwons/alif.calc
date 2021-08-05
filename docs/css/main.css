@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+    background-color: #14bf7b;
+    font-family: MetronicProBlack, sans-serif;
+
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.inputSum {
+    text-align: center;
+}
+
+.results__forMonth {
+    width: 150px;
+    background-color: #fff;
+    color: #14bf7b; 
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.input__form {
+    margin-top: 10px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__form input {
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 3px 7px 1px 7px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #14bf7b;
+    font-weight: 600;
+}
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.results__forMonthlyPay {
+    width: 210px;
+    background-color: #fff;
+    color: #14bf7b;
+}
+
+.results__forMonthlyPay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 50px;
+    border: 1px solid #ececec;
+    width: 250px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.loveFromBakhich {
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.results__credit-term {
+    width: 100px;
+}
