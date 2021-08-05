@@ -96,10 +96,17 @@ body {
 
 .loveFromBakhich {
     text-align: right;
-    margin-top: 150px;
     margin-right: 100px;
 }
 
 .results__credit-term {
     width: 100px;
+}
+
+.forAcsia {
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
 }
