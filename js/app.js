@@ -58,19 +58,19 @@ input.oninput = function() {
     document.getElementById('monthlyPayment18').innerHTML = monthlyPayment18;
     document.getElementById('monthlyPayment24').innerHTML = monthlyPayment24;
 ///////////////////////////////////////////////////////////////////////////////////////
-    document.getElementById('factualPayment3').innerHTML = factualPay3.toFixed(2);; 
-    document.getElementById('factualPayment6').innerHTML = factualPay6.toFixed(2);; 
-    document.getElementById('factualPayment9').innerHTML = factualPay9.toFixed(2);; 
-    document.getElementById('factualPayment12').innerHTML = factualPay12.toFixed(2);; 
-    document.getElementById('factualPayment15').innerHTML = factualPay15.toFixed(2);; 
-    document.getElementById('factualPayment18').innerHTML = factualPay18.toFixed(2);; 
-    document.getElementById('factualPayment24').innerHTML = factualPay24.toFixed(2);; 
+    document.getElementById('factualPayment3').innerHTML = factualPay3.toFixed(0); 
+    document.getElementById('factualPayment6').innerHTML = factualPay6.toFixed(0); 
+    document.getElementById('factualPayment9').innerHTML = factualPay9.toFixed(0); 
+    document.getElementById('factualPayment12').innerHTML = factualPay12.toFixed(0);
+    document.getElementById('factualPayment15').innerHTML = factualPay15.toFixed(0); 
+    document.getElementById('factualPayment18').innerHTML = factualPay18.toFixed(0); 
+    document.getElementById('factualPayment24').innerHTML = factualPay24.toFixed(0);
 ///////////////////////////////////////////////////////////////////////////////////////
-    document.getElementById('result3').innerHTML = result3;
-    document.getElementById('result6').innerHTML = result6;
-    document.getElementById('result9').innerHTML = result9;
-    document.getElementById('result12').innerHTML = result12;
-    document.getElementById('result15').innerHTML = result15;
-    document.getElementById('result18').innerHTML = result18;
-    document.getElementById('result24').innerHTML = result24;
+    document.getElementById('result3').innerHTML = result3.toFixed(0);
+    document.getElementById('result6').innerHTML = result6.toFixed(0);
+    document.getElementById('result9').innerHTML = result9.toFixed(0);
+    document.getElementById('result12').innerHTML = result12.toFixed(0);
+    document.getElementById('result15').innerHTML = result15.toFixed(0);
+    document.getElementById('result18').innerHTML = result18.toFixed(0);
+    document.getElementById('result24').innerHTML = result24.toFixed(0);
   };

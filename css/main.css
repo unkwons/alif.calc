@@ -6,6 +6,7 @@
 body {
     color: white;
     background-color: #14bf7b;
+    font-family: MetronicProBlack, sans-serif;
 
 }
 
@@ -21,13 +22,24 @@ body {
 
 .results__forMonth {
     width: 150px;
-
+    background-color: #fff;
+    color: #14bf7b; 
 }
 
 .results {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+
+.input__form {
+    margin-top: 10px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .input__form input {
@@ -40,6 +52,8 @@ body {
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;
+    color: #14bf7b;
+    font-weight: 600;
 }
 
     input::-webkit-outer-spin-button,
@@ -51,6 +65,8 @@ body {
 
 .results__forMonthlyPay {
     width: 210px;
+    background-color: #fff;
+    color: #14bf7b;
 }
 
 .results__forMonthlyPay {
@@ -58,6 +74,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .center-block {
@@ -68,4 +85,21 @@ body {
     padding: 10px;
     font-size: 18px;
     line-height: 50px;
+    border: 1px solid #ececec;
+    width: 250px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.loveFromBakhich {
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.results__credit-term {
+    width: 100px;
 }
