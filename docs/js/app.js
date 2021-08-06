@@ -43,7 +43,7 @@ input.oninput = function() {
     const factualPay18 = calcEighteenMn - input.value;
     const factualPay24 = calcTwenyFourMn - input.value;
     
-    // document.getElementById('monthlyPayment3').innerHTML = monthlyPayment3;
+//     document.getElementById('monthlyPayment3').innerHTML = monthlyPayment3;
     // document.getElementById('monthlyPayment6').innerHTML = monthlyPayment6;
     document.getElementById('monthlyPayment9').innerHTML = monthlyPayment9;
     document.getElementById('monthlyPayment12').innerHTML = monthlyPayment12;   
