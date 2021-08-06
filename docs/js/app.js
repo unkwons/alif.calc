@@ -94,5 +94,4 @@ inptForAcsia.oninput = function(){
     
     document.getElementById('acsiaFactual18').innerHTML = acsiaFactual18.toFixed(0);
     document.getElementById('acsiaFactual24').innerHTML = acsiaFactual24.toFixed(0);
-
 };
