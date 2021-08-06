@@ -53,6 +53,12 @@ body {
     font-weight: 500;
     color: #14bf7b;
     font-weight: 600;
+    caret-color: transparent;
+}
+
+
+input:focus {
+    border: 1px solid #52595b;
 }
 
     input::-webkit-outer-spin-button,

@@ -1,6 +1,5 @@
 let input 
 input = document.getElementById('inpt');
-document.getElementById('inpt').focus();
 
 input.oninput = function() {
     // const comissionThreeMn = 6;
@@ -81,8 +80,11 @@ inptForAcsia.oninput = function(){
     const acsiaMonth18 = calcAcsia18 / 18
     const acsiaMonth24 = calcAcsia24 / 24
 
+
     const acsiaFactual18 = +inptForAcsia.value - calcAcsia18;
     const acsiaFactual24 = calcAcsia24 - +inptForAcsia.value;
+
+
 
     document.getElementById('acsiaResult18').innerHTML = calcAcsia18.toFixed(0);
     document.getElementById('acsiaResult24').innerHTML = calcAcsia24.toFixed(0);
