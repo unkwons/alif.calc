@@ -13,7 +13,8 @@ body {
 .calculator {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 30px 20px 10px 20px;
+    margin-top: -10px;
 }
 
 .inputSum {
@@ -100,9 +101,10 @@ input:focus {
 }
 
 .loveFromBakhich {
+    font-size: 18px;
     text-align: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 70px;
+    margin-top: -15px;
 }
 
 .results__credit-term {
@@ -110,11 +112,11 @@ input:focus {
 }
 
 .forAcsia {
-    margin-top: -60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
+    margin-top: -10px;
 }
 
 .results__acsiaMonthlyPay {
@@ -125,4 +127,19 @@ input:focus {
 .results__acsiaResult {
     background-color: #fff;
     color: #14bf7b;
+}
+
+.forAcsiaStandart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.roatable {
+    transform: rotate(270deg);
+    display: flex;
+    margin-right: 1400px;
+    margin-top: -10px;
 }

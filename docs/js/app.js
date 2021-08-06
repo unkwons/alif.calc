@@ -68,6 +68,42 @@ input.oninput = function() {
 
   };
 
+let inptStandAcsia;
+
+inptStandAcsia = document.getElementById('inptStandAcsia');
+  inptStandAcsia.oninput = function(){
+      const acsia15 = 15;
+      const acsia20 = 20;
+      const acsia25 = 25;
+
+      const calcStandAcsia12 = (+inptStandAcsia.value / 100) * acsia15 + +inptStandAcsia.value;
+      const calcStandAcsia18 = (+inptStandAcsia.value / 100) * acsia20 + +inptStandAcsia.value;
+      const calcStandAcsia24 = (+inptStandAcsia.value / 100) * acsia25 + +inptStandAcsia.value;
+  
+      const acsiaStandMonth12 = calcStandAcsia12 / 12
+      const acsiaStandMonth18 = calcStandAcsia18 / 18
+      const acsiaStandMonth24 = calcStandAcsia24 / 24
+  
+  
+      const acsiaStandFactual12 = calcStandAcsia12 - +inptStandAcsia.value;
+      const acsiaStandFactual18 = calcStandAcsia18 - +inptStandAcsia.value;
+      const acsiaStandFactual24 = calcStandAcsia24 - +inptStandAcsia.value;
+  
+  
+  
+      document.getElementById('acsiaStandResult12').innerHTML = calcStandAcsia12.toFixed(0);
+      document.getElementById('acsiaStandResult18').innerHTML = calcStandAcsia18.toFixed(0);
+      document.getElementById('acsiaStandResult24').innerHTML = calcStandAcsia24.toFixed(0);
+  
+      document.getElementById('acsiaStandMonthlyPay12').innerHTML = acsiaStandMonth12.toFixed(2);
+      document.getElementById('acsiaStandMonthlyPay18').innerHTML = acsiaStandMonth18.toFixed(2);
+      document.getElementById('acsiaStandMonthlyPay24').innerHTML = acsiaStandMonth24.toFixed(2);
+      
+      document.getElementById('acsiaStandFactual12').innerHTML = acsiaStandFactual12.toFixed(0);
+      document.getElementById('acsiaStandFactual18').innerHTML = acsiaStandFactual18.toFixed(0);
+      document.getElementById('acsiaStandFactual24').innerHTML = acsiaStandFactual24.toFixed(0);
+  };
+
 let inptForAcsia;
 
 inptForAcsia = document.getElementById('inptForAcsia');
