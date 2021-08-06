@@ -86,13 +86,13 @@ inptForAcsia.oninput = function(){
     const acsiaFactual24 = calcAcsia24 - +inptForAcsia.value;
 
 
-    document.getElementById('acsiaResult18').innerHTML = calcAcsia18;
-    document.getElementById('acsiaResult24').innerHTML = calcAcsia24;
+    document.getElementById('acsiaResult18').innerHTML = calcAcsia18.toFixed(0);
+    document.getElementById('acsiaResult24').innerHTML = calcAcsia24.toFixed(0);
 
     document.getElementById('acsiaMonthlyPay18').innerHTML = acsiaMonth18.toFixed(2);
     document.getElementById('acsiaMonthlyPay24').innerHTML = acsiaMonth24.toFixed(2);
     
-    document.getElementById('acsiaFactual18').innerHTML = acsiaFactual18.toFixed(2);
-    document.getElementById('acsiaFactual24').innerHTML = acsiaFactual24.toFixed(2);
+    document.getElementById('acsiaFactual18').innerHTML = acsiaFactual18.toFixed(0);
+    document.getElementById('acsiaFactual24').innerHTML = acsiaFactual24.toFixed(0);
 
 };
