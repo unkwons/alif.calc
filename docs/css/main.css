@@ -30,7 +30,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .input__form {
@@ -97,6 +96,7 @@ body {
 .loveFromBakhich {
     text-align: right;
     margin-right: 100px;
+    margin-top: 100px;
 }
 
 .results__credit-term {
